@@ -1,6 +1,22 @@
+// 思源黑體 Noto Sans TC Bold 700
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@700&display=swap');
+
 $code-bg: #eff6fa;
 $code-color: #434f54;
 $terminal-bg: #12151d;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 700;
+    code {
+        font-size: inherit;
+    }
+}
 
 /* Code Block */
 code {
