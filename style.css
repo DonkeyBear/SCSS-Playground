@@ -1,3 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@700&display=swap");
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Noto Sans TC', sans-serif;
+  font-weight: 700;
+}
+
+h1 code,
+h2 code,
+h3 code,
+h4 code,
+h5 code,
+h6 code {
+  font-size: inherit;
+}
+
 /* Code Block */
 code {
   background-color: #eff6fa !important;
