@@ -1,0 +1,49 @@
+$code-bg: #eff6fa;
+$code-color: #434f54;
+$terminal-bg: #12151d;
+
+/* Code Block */
+code {
+    background-color: $code-bg !important;
+    color: $code-color;
+    padding: 0.2em 0.4em;
+    font-size: 0.9em;
+    border-radius: 4px;
+}
+pre {
+    code {
+        border-radius: 8px;
+        display: block;
+        padding: 1.5em !important;
+    }
+}
+
+/* Terminal */
+samp {
+    background-color: $terminal-bg;
+    color: $code-bg;
+    border-radius: 6px;
+    display: block;
+    padding: 1.5em;
+    font-size: 0.9em;
+}
+
+/* Keyboard */
+kbd {
+    padding: 0.2em 0.4em;
+    font-size: 0.9em;
+    border-radius: 4px;
+    border: 1px solid #999;
+    vertical-align: 14%;
+}
+
+/* Quote */
+blockquote {
+    margin: 1em;
+    border-left: 0.2em solid #92bec4;
+    color: #618d94;
+    padding: 0.15em 1em;
+    font-size: 1em;
+    font-style: normal;
+    text-align: left;
+}
