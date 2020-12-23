@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css" type="text/css" />
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.4.1/styles/arduino-light.min.css" />
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.4.1/highlight.min.js"></script>
+        <script>
+            hljs.initHighlightingOnLoad();
+        </script>
+    </head>
+    <body>
+        <h1>SCSS 語法測試</h1>
+        <h2><code>&lt;code&gt;</code>、<code>&lt;pre&gt;&lt;code&gt;</code></h2>
+        <hr />
+        <p>行內 <code>程式碼區塊</code> 測試。</p>
+        <p>Inline <code>code block</code> testing.</p>
+        <pre><code class='python'>someFolder/Fibonacci.py<hr>a = 0
+b = 1
+            
+# 據維基百科所述：0不是第一項，而是第零項。故此處以特例方式印出 0
+print('0',end=' ')
+            
+while True:
+    # 原本只需要 input() 就可以完成按一次 Enter 鍵即印出下一數字，
+    # 但是終端機卻無法接著執行其他檔案，所以做了一個「輸入任何文字來跳出迴圈」的功能
+    break_sign = input()
+    if break_sign != '':
+        break
+    c = a + b
+    print(b,end=' ')
+    a = b
+    b = c</code></pre>
+
+        <h2><code>&lt;samp&gt;</code></h2>
+        <hr />
+        <pre><samp>Microsoft Windows [版本 10.0.18363.1256]
+(c) 2019 Microsoft Corporation. 著作權所有，並保留一切權利。
+                
+C:\Windows\system32>python -V
+Python 3.9.0
+                
+C:\Windows\system32>python
+Python 3.9.0 (tags/v3.9.0:9cf6752, Oct  5 2020, 15:34:40) [MSC v.1927 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> quit()
+                
+C:\Windows\system32></samp></pre>
+        <h2><code>&lt;kbd&gt;</code></h2>
+        <hr />
+        <p>按鍵測試：使用 <kbd>Ctrl</kbd> + <kbd>C</kbd> 即可複製。</p>
+        <h2><code>&lt;blockquote&gt;</code></h2>
+        <hr />
+        <blockquote>
+            第一層引言
+            <blockquote>
+                第二層
+                <blockquote>
+                    第三層
+                </blockquote>
+            </blockquote>
+            回到第一層，附帶一個 <code>code block</code> 和一個 <kbd>按鍵</kbd>。
+        </blockquote>
+    </body>
+</html>
