@@ -18,6 +18,12 @@ h6 code {
   font-size: inherit;
 }
 
+/* Horizontal Rule */
+hr {
+  border-style: solid none none none;
+  border-top-color: #808080;
+}
+
 /* Code Block */
 code {
   background-color: #eff6fa !important;
