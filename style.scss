@@ -18,6 +18,12 @@ h6 {
     }
 }
 
+/* Horizontal Rule */
+hr {
+    border-style: solid none none none;
+    border-top-color: #808080;
+}
+
 /* Code Block */
 code {
     background-color: $code-bg !important;
